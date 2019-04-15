@@ -1,0 +1,74 @@
+.logo {
+  display: block;
+  float:left;
+  position: sticky;
+  padding: 2% 0% 0% 2%;
+  width: 5%;
+  
+  
+}
+
+h1{
+
+  text-align: center;
+}
+
+
+
+.lunch{
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px grey;
+  padding: 20px 20px 20px 20px;
+  background-color: white;
+
+}
+
+.bgname{
+
+  background-color:gray;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  
+
+}
+.bgname p{
+  text-align: center;
+}
+.name{
+  background: transparent;
+  border: transparent;
+  border-bottom: 0.5px solid red;
+  text-align: center;
+  width: 50%;
+  font-size: 20px;
+  margin-left: 25%; /*you can also do it like this: display:block; and then margin: auto*/
+  line-height: 2.5em;
+
+}
+
+.starred {
+  color:red;
+}
+
+ul {
+  margin-left: 30%;
+  width: 95%;
+  height:20%;
+  padding: 2% 0% 0% 0%;
+}
+
+li {
+ display: inline-block;
+ padding: 0% 5%; 
+
+
+}
+
+a {
+  text-transform: underline;
+  color: black;
+  text-decoration: none;
+}
