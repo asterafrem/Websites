@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- <link rel="stylesheet" href="contact.js">-->
+ <style>
+ main {
+   left: 50%;
+   top: 50%;
+
+   /*transform:translate(-50%,-50%)*/
+ }
+ </style>
+  <title>A LITTLE FUN</title>
+</head>
+
+
+<body>
+<header style="display: block; text-align:center">
+  <h1>CONTACT ME</h1>
+</header>
+  <main style="display: block; text-align:center">
+ 
+    
+    <!--<input class="name" type="text" placeholder="Write your name">--><br>
+    <!--<p>Write your birthyear</p><br>
+    <input type="number" id="cars"><br>-->
+<!--<textarea name="" id="" cols="30" rows="10"></textarea>-->
+
+
+<script>
+    function ageCheck() {
+        var age = document.getElementById("age").value;
+        if (age < 18) {
+              document.getElementById("message").innerHTML ="<h1>YOU DUMBASS, YOU ARE TOO YOUNG!HHAHAHAH</h1>";
+        }
+        else {
+          document.getElementById("message").innerHTML = "<h1>I GOT THE POWER, MUHAHAHAHH</h1>";
+        }
+      
+    }
+
+</script>
+
+
+
+
+
+
+
+<input type="text" id="age"><br>
+<br>
+<br>
+<br>
+<input type="button" onclick="ageCheck()" value="old enough?"> <br>
+<br>
+<br>
+<br>
+<div id="message"></div>
+
+<!--<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+What happens when you click me?</button>
+
+<p id="demo"></p>-->
+
+
+</main>
+  
+</body>
+</html>
